@@ -1,0 +1,6 @@
+services:
+  optimizer:
+    build: .
+    image: ghcr.io/dnd-apps/asset-opimizer:latest
+    volumes:
+      - ./assets:/assets
